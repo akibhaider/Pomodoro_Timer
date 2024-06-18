@@ -36,3 +36,15 @@ To get started, follow these steps:
    You may use any IDE(IntelliJ IDEA or Eclipse) to setup Java environment(Download all required external libraries for Javafx). No Database connection needed.
 3. **Setup JDK**
    From the "Project Structure", make sure to add oracle openJDK(version 21 or higher preferable) as dependency and load the gui project. Compile and Run it at the backend of your othe programs and enjoy your productive session!
+
+
+## Screenshot
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="Word_Guessing_Game/word_guessing_game.png" alt="Anagram" style="width: 437px;"/>
+    <br/>
+    <em>Anagram</em>
+  </div>
+</div>
+

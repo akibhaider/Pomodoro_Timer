@@ -34,10 +34,10 @@ public class HelloController {
         LabelText.setText("Pomodoro Timer");
         timer_id=0;
         is_play=true;
-        minute_Text.setText("0");
-        second_Text.setText("10");
-        minute = 0;
-        second = 10;
+        minute_Text.setText("25");
+        second_Text.setText("00");
+        minute = 25;
+        second = 0;
         play_pause_button.setText("⏸️");
     }
     @FXML
@@ -45,10 +45,10 @@ public class HelloController {
         LabelText.setText("Short Break Timer");
         timer_id=1;
         is_play=true;
-        minute_Text.setText("0");
-        second_Text.setText("5");
-        minute = 0;
-        second = 5;
+        minute_Text.setText("5");
+        second_Text.setText("00");
+        minute = 5;
+        second = 0;
         play_pause_button.setText("⏸️");
     }
     @FXML
@@ -56,10 +56,10 @@ public class HelloController {
         LabelText.setText("Long Break Timer");
         timer_id=2;
         is_play=true;
-        minute_Text.setText("0");
-        second_Text.setText("15");
-        minute = 0;
-        second = 15;
+        minute_Text.setText("15");
+        second_Text.setText("00");
+        minute = 15;
+        second = 0;
         play_pause_button.setText("⏸️");
     }
     @FXML
@@ -91,11 +91,11 @@ public class HelloController {
                     if (minute == 0) {
                         timer.cancel();
                         // Session Completed
-//                        if(timer_id==0){
-//                            Select_Sbreak_timer();
-//                        }else if(timer_id==1){
-//                            Select_Pomodoro_timer();
-//                        }
+                        if(timer_id==0){
+                            Select_Sbreak_timer();
+                        }else if(timer_id==1){
+                            Select_Pomodoro_timer();
+                        }
                         return;
                     }
                     second = 59;
@@ -133,12 +133,3 @@ public class HelloController {
         StartTimer();
     }
 }
-//       if (cnt){
-//        if(timer_id==0){
-//        LabelText.setText("Short Break Timer");
-//Select_Sbreak_timer();
-//            }else if(timer_id==1){
-//        LabelText.setText("Pomodoro Timer");
-//Select_Pomodoro_timer();
-//            }
-//                    }
