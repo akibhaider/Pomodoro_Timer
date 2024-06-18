@@ -4,12 +4,11 @@ Welcome to the Pomodoro Timer App! This application is designed to enhance produ
 
 ## Features
 
-- **Play/Pause Button**: Start or pause your work session with a simple click.
+- **Pause Anytime**: Start or pause your work session with a simple click and halt the timer at any moment if you need to step away.
 - **Auto-Activation**: The timer automatically starts the next session, ensuring smooth transitions between work and break periods.
 - **Short Breaks**: After each work session, enjoy a short break to recharge.
 - **Long Breaks**: Take a longer break after a set number of work sessions to maintain productivity.
-- **Timer Switching**: Easily switch between work and break timers to adapt to your workflow.
-- **Halting Timer**: Pause the timer at any moment if you need to step away.
+- **Timer Switching**: Easily switch between work and break timers to adapt to your workflow. 
 
 ## How to Use
 
@@ -17,7 +16,6 @@ Welcome to the Pomodoro Timer App! This application is designed to enhance produ
 2. **Short Breaks**: After each work session, a short break is automatically activated to give you a quick rest.
 3. **Long Breaks**: After completing a set number of work sessions (usually 4), a long break is activated to help you relax more thoroughly.
 4. **Switch Timers**: You can manually switch between work and break timers as needed for a flexible and uninterrupted workflow.
-5. **Pause Anytime**: If you need to stop working or take a break, you can pause the timer at any time.
 
 ## Who Can Benefit?
 
