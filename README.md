@@ -1,4 +1,5 @@
-# Pomodoro Timer App
+# Pomodoro_Timer
+![Contributors](https://img.shields.io/github/contributors/akibhaider/Pomodoro_Timer?color=darkgreen) ![Forks](https://img.shields.io/github/forks/akibhaider/Pomodoro_Timer?style=social) ![Stargazers](https://img.shields.io/github/stars/akibhaider/Pomodoro_Timer?style=social) ![Issues](https://img.shields.io/github/issues/akibhaider/Pomodoro_Timer?color=brown) 
 
 Welcome to the Pomodoro Timer App! This application is designed to enhance productivity by implementing the Pomodoro Technique, a time management method that promotes focused work sessions interspersed with short breaks.
 
